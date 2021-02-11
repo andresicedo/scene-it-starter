@@ -1,16 +1,47 @@
 body {
-	background-color: #B2E9FD;
+	background-color: rgb(66,66,66);
 }
 
 .header h2 {
 	color: #DC4247;
+	font-weight: bolder;
 }
 
 .header p {
-	color: #50524F;
+	color: white;
 }
 
 .results {
 	margin-top: 20px;
 }
 
+.addButton {
+	background-color: rgb(23, 83, 247);
+	color: white;
+}
+
+.searchButton {
+	background-color: rgb(23, 83, 247);
+	color: white;
+}
+
+.movieCard {
+	background: rgb(76,76,76);
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 20%;
+	border-style: ridge;
+	border-color: black;
+	border-width: .5cm;
+}
+
+.card-text {
+	color: white;
+}
+
+.card-title {
+	color: white;
+}
+
+.updatedText {
+	color: white;
+}
